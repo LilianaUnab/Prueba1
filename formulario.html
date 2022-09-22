@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<meta charset="Utf-8">
+</head>
+<body>
+	<section>
+		<form>
+			<h1>FORMULARIO DE INSCRIPCION</h1>
+			<br>	
+			<fieldset>		
+				<label for="nombreusuario">Nombre del Usuario</label>
+				<input type="text" name="nomusu" size="45" maxlength="40" placeholder="Ingrese su nombre y apellido">
+			<br>
+				<label for="emailusuario">Correo del Usuario</label>
+				<input type="email" name="mail" size="45" maxlength="40" placeholder="Ingrese su correo ">
+				<input type="password" name="clave" autofocus>
+			</fieldset>
+			<br>
+				<label>Seleccione la Ciudad</label>
+				<select name="Ciudad">
+				
+					<option value="0">Seleccione</option>
+					<option value="1">Bogotá</option>
+					<option value="2">Medellin</option>
+					<option value="3">Cali</option>
+				</fieldset>	
+				</select>
+				
+			<br>
+			<fieldset>
+				<label>Seleccione un genero</label>
+				<input type="radio" name="genero" value="femenino">Femenino
+				<input type="radio" name="genero" value="masculino">Masculino
+				<input type="radio" name="genero" value="otro">Otro
+			</fieldset>
+			<br>
+				<label>Seleccione un tipo de empleo</label>
+				<br>
+				<input type="radio" name="empleoactual" value="tiempocompleto"> Tiempo completo
+				<br> 
+				<input type="radio" name="empleoactual" value="mediodia"> Medio día
+				<br>
+				<input type="radio" name="empleoactual" value="sinempleo"> Sin empleo
+
+			<br>
+				<label>Seleccione estudios</label>
+				<input type="checkbox" name="estudio" value="primaria">Primaria
+				<input type="checkbox" name="estudio" value="secundaria">Secundaria
+				<input type="checkbox" name="estudio" value="pregrado">Pregrado
+				<input type="checkbox" name="estudio" value="postgrado">Postgrado
+			<br>
+				<label>Observaciones</label><br>	
+				<textarea cols="50" rows="10"></textarea>
+			<br>
+			<fieldset>
+			<input type="submit" value="Enviar"> 
+			<input type="reset" value="Cancelar"> 
+			<input type="file" value="Adjuntar"> 
+			<br>
+			<input type="range" min="0" max="100">
+			<br>
+			<input type="number">
+			<input type="date">
+			<input type="datetime-local">
+			<input type="time">
+			<input type="month">
+			<input type="week">
+			<input type="color">
+			<progress max="100" value="80"></progress>
+			<meter min="0" max="100" low="35" high="75" optimus="100" value="25"></meter>
+			</fieldset>
+		</form>		
+
+
+
+
+
+
+
+
+	</section>
+
+</body>
+
+</html>
